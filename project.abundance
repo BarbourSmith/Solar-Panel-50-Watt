@@ -760,6 +760,60 @@
                                 "tags": [],
                                 "bom": []
                             }
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": {
+                                "geometry": "move-rotate-move-cut-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-fuse-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-2-2-2-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-20-20-0-17-17--1.5-0-0-90-283--237-0",
+                                "dimension": "3D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#5A5A5A",
+                                "tags": [],
+                                "bom": []
+                            }
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": {
+                                "geometry": "rotate-move-rotate-move-cut-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-fuse-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-2-2-2-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-20-20-0-17-17--1.5-0-0-90-283--237-0-0-0-180",
+                                "dimension": "3D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#5A5A5A",
+                                "tags": [],
+                                "bom": []
+                            }
                         }
                     ]
                 },
@@ -790,8 +844,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.3969465648854962,
-                    "y": 0.8378378378378378,
+                    "x": 0.32061068702290074,
+                    "y": 0.8783783783783784,
                     "uniqueID": "6d655fdd-a591-43a4-bfbc-a84deb2f3c5a",
                     "ioValues": [
                         {
@@ -814,24 +868,48 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.6997455470737913,
-                    "y": 0.8243243243243243,
+                    "x": 0.49109414758269715,
+                    "y": 0.6655405405405405,
                     "uniqueID": "0dbf73a3-5a75-4808-84a5-596d7bf179ec",
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0,
-                            "currentEquation": null
+                            "ioValue": 283,
+                            "currentEquation": "570/2-2"
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0,
-                            "currentEquation": null
+                            "ioValue": -237,
+                            "currentEquation": "-470/ 2-2"
                         },
                         {
                             "name": "zDist",
                             "ioValue": 0,
                             "currentEquation": null
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.648854961832061,
+                    "y": 0.8716216216216216,
+                    "uniqueID": "1167184e-7cc2-4f50-9414-6113c92a2f82",
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180,
+                            "currentEquation": "180"
                         }
                     ]
                 }
@@ -878,6 +956,24 @@
                     "ap2Name": "geometry",
                     "ap1ID": "6d655fdd-a591-43a4-bfbc-a84deb2f3c5a",
                     "ap2ID": "0dbf73a3-5a75-4808-84a5-596d7bf179ec"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap1ID": "0dbf73a3-5a75-4808-84a5-596d7bf179ec",
+                    "ap2ID": "dfcd5185-c443-406f-a7d4-0b1a852d0f3c"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "0dbf73a3-5a75-4808-84a5-596d7bf179ec",
+                    "ap2ID": "1167184e-7cc2-4f50-9414-6113c92a2f82"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap1ID": "1167184e-7cc2-4f50-9414-6113c92a2f82",
+                    "ap2ID": "dfcd5185-c443-406f-a7d4-0b1a852d0f3c"
                 }
             ],
             "fileTypeVersion": 1,
@@ -947,6 +1043,54 @@
                             },
                             {
                                 "geometry": "rotate-move-move-cut-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-fuse-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-2-2-2-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-20-20-0-17-17--1.5--287--237-0-0-0-180",
+                                "dimension": "3D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#5A5A5A",
+                                "tags": [],
+                                "bom": []
+                            },
+                            {
+                                "geometry": "move-rotate-move-cut-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-fuse-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-2-2-2-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-20-20-0-17-17--1.5-0-0-90-283--237-0",
+                                "dimension": "3D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#5A5A5A",
+                                "tags": [],
+                                "bom": []
+                            },
+                            {
+                                "geometry": "rotate-move-rotate-move-cut-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-fuse-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-2-2-2-move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-20-20-0-17-17--1.5-0-0-90-283--237-0-0-0-180",
                                 "dimension": "3D",
                                 "plane": {
                                     "origin": [
