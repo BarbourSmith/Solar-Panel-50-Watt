@@ -55,6 +55,41 @@
             }
         },
         {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.7837150127226463,
+            "y": 0.4864864864864865,
+            "uniqueID": "6ec07398-516e-4b45-ae93-af06f142b64c",
+            "ioValues": [
+                {
+                    "name": "Item Name",
+                    "ioValue": "New Item",
+                    "currentEquation": null
+                },
+                {
+                    "name": "Number Needed",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cost (USD)",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Source Link",
+                    "ioValue": "",
+                    "currentEquation": null
+                }
+            ],
+            "BOMitem": {
+                "BOMitemName": "50 watt Solar Panel",
+                "numberNeeded": 1,
+                "costUSD": 56.99,
+                "source": "https://amzn.to/42T8U8C"
+            }
+        },
+        {
             "atomType": "Molecule",
             "name": "Frame",
             "x": 0.1094147582697201,
@@ -357,41 +392,6 @@
             "compiledBom": []
         },
         {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.7837150127226463,
-            "y": 0.4864864864864865,
-            "uniqueID": "6ec07398-516e-4b45-ae93-af06f142b64c",
-            "ioValues": [
-                {
-                    "name": "Item Name",
-                    "ioValue": "New Item",
-                    "currentEquation": null
-                },
-                {
-                    "name": "Number Needed",
-                    "ioValue": 1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Cost (USD)",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Source Link",
-                    "ioValue": "",
-                    "currentEquation": null
-                }
-            ],
-            "BOMitem": {
-                "BOMitemName": "50 watt Solar Panel",
-                "numberNeeded": 1,
-                "costUSD": 56.99,
-                "source": "https://amzn.to/42T8U8C"
-            }
-        },
-        {
             "atomType": "Molecule",
             "name": "Corner Protectors",
             "x": 0.12468193384223918,
@@ -428,16 +428,16 @@
             "ap2ID": "6ec07398-516e-4b45-ae93-af06f142b64c"
         },
         {
-            "ap1Name": "geometry or number",
-            "ap2Name": "geometry",
-            "ap1ID": "a470c955-729b-4dae-a054-81b26608c1e4",
-            "ap2ID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad"
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap1ID": "6ec07398-516e-4b45-ae93-af06f142b64c",
             "ap2ID": "73bc288d-295b-4a97-9ba9-72f95fb1a592"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "geometry",
+            "ap1ID": "a470c955-729b-4dae-a054-81b26608c1e4",
+            "ap2ID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad"
         }
     ],
     "unitsKey": "MM",
