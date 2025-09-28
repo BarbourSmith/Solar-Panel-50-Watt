@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Solar Panel 50 Watt",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "97716894-9390-4e1e-ab5d-96bdb3cae459",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
