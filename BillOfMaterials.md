@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0| |
+|50 watt Solar Panel|1|$56.99|https://amzn.to/42T8U8C|
+|Total: |1|$56.99| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $170.97

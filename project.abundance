@@ -16,10 +16,49 @@
             "ioValues": []
         },
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.3638676844783715,
+            "y": 0.6722972972972973,
+            "uniqueID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad",
+            "ioValues": [],
+            "selectedColorIndex": 20
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.5725190839694657,
+            "y": 0.27027027027027023,
+            "uniqueID": "ee619800-d6d4-4f16-9e1e-4a5ba5c3d217",
+            "ioValues": [
+                {
+                    "name": "Number Needed",
+                    "ioValue": 1,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Cost (USD)",
+                    "ioValue": 0,
+                    "currentEquation": null
+                },
+                {
+                    "name": "Source Link",
+                    "ioValue": "",
+                    "currentEquation": null
+                }
+            ],
+            "BOMitem": {
+                "BOMitemName": "Solar Panel",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
+        },
+        {
             "atomType": "Molecule",
             "name": "Frame",
-            "x": 0.19592875318066158,
-            "y": 0.3716216216216216,
+            "x": 0.1094147582697201,
+            "y": 0.5472972972972974,
             "uniqueID": "a470c955-729b-4dae-a054-81b26608c1e4",
             "ioValues": [],
             "topLevel": false,
@@ -42,12 +81,12 @@
                         {
                             "name": "x length",
                             "ioValue": 570,
-                            "currentEquation": "570"
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
                             "ioValue": 470,
-                            "currentEquation": "470"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -61,7 +100,7 @@
                         {
                             "name": "height",
                             "ioValue": 17,
-                            "currentEquation": "17"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -75,12 +114,12 @@
                         {
                             "name": "x length",
                             "ioValue": 569,
-                            "currentEquation": "569"
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
                             "ioValue": 469,
-                            "currentEquation": "469"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -94,7 +133,7 @@
                         {
                             "name": "height",
                             "ioValue": 16,
-                            "currentEquation": "16"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -126,7 +165,7 @@
                         {
                             "name": "zDist",
                             "ioValue": 0.5,
-                            "currentEquation": ".5"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -159,7 +198,7 @@
                         {
                             "name": "height",
                             "ioValue": -100,
-                            "currentEquation": "-100"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -183,7 +222,7 @@
                         {
                             "name": "zDist",
                             "ioValue": 16,
-                            "currentEquation": "16"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -318,21 +357,17 @@
             "compiledBom": []
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.14249363867684478,
-            "y": 0.8040540540540541,
-            "uniqueID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad",
-            "ioValues": [],
-            "selectedColorIndex": 20
-        },
-        {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.5318066157760815,
-            "y": 0.5844594594594594,
-            "uniqueID": "ee619800-d6d4-4f16-9e1e-4a5ba5c3d217",
+            "x": 0.6564885496183206,
+            "y": 0.5709459459459459,
+            "uniqueID": "6ec07398-516e-4b45-ae93-af06f142b64c",
             "ioValues": [
+                {
+                    "name": "Item Name",
+                    "ioValue": "New Item",
+                    "currentEquation": null
+                },
                 {
                     "name": "Number Needed",
                     "ioValue": 1,
@@ -350,20 +385,14 @@
                 }
             ],
             "BOMitem": {
-                "BOMitemName": "Solar Panel",
+                "BOMitemName": "50 watt Solar Panel",
                 "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
+                "costUSD": 56.99,
+                "source": "https://amzn.to/42T8U8C"
             }
         }
     ],
     "allConnectors": [
-        {
-            "ap1Name": "geometry or number",
-            "ap2Name": "geometry",
-            "ap1ID": "a470c955-729b-4dae-a054-81b26608c1e4",
-            "ap2ID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad"
-        },
         {
             "ap1Name": "color",
             "ap2Name": "Item Name",
@@ -371,14 +400,33 @@
             "ap2ID": "ee619800-d6d4-4f16-9e1e-4a5ba5c3d217"
         },
         {
+            "ap1Name": "color",
+            "ap2Name": "geometry",
+            "ap1ID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad",
+            "ap2ID": "6ec07398-516e-4b45-ae93-af06f142b64c"
+        },
+        {
+            "ap1Name": "geometry or number",
+            "ap2Name": "geometry",
+            "ap1ID": "a470c955-729b-4dae-a054-81b26608c1e4",
+            "ap2ID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad"
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
-            "ap1ID": "ee619800-d6d4-4f16-9e1e-4a5ba5c3d217",
+            "ap1ID": "6ec07398-516e-4b45-ae93-af06f142b64c",
             "ap2ID": "73bc288d-295b-4a97-9ba9-72f95fb1a592"
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": {},
+    "compiledBom": [
+        {
+            "BOMitemName": "50 watt Solar Panel",
+            "numberNeeded": 1,
+            "costUSD": 56.99,
+            "source": "https://amzn.to/42T8U8C"
+        }
+    ],
     "filetypeVersion": 1
 }
