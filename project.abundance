@@ -393,7 +393,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Corner Protectors",
+            "name": "Corner Protector",
             "x": 0.12468193384223918,
             "y": 0.8175675675675677,
             "uniqueID": "3d2bb88c-f8bc-4eb6-959f-295b8ca25e86",
@@ -407,11 +407,248 @@
                     "y": 0.5,
                     "uniqueID": "92e5f002-2c05-4e58-97f4-19932e55020a",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.043256997455470736,
+                    "y": 0.44256756756756754,
+                    "uniqueID": "be14c50e-1530-491e-bc1a-e7b1f17d1f00",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 34,
+                            "currentEquation": "34"
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 34,
+                            "currentEquation": "34"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.27989821882951654,
+                    "y": 0.30405405405405406,
+                    "uniqueID": "8297ba2a-60cf-49bb-92ad-604a96812f44",
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20,
+                            "currentEquation": "20"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.33842239185750633,
+                    "y": 0.5,
+                    "uniqueID": "56928793-af5d-4298-8680-d9ba5313576d",
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 8,
+                            "currentEquation": "8"
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 8,
+                            "currentEquation": "8"
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0,
+                            "currentEquation": null
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5776081424936387,
+                    "y": 0.40202702702702703,
+                    "uniqueID": "6265351a-f252-451e-97f2-4fd30567f48a",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.15267175572519084,
+                    "y": 0.7027027027027026,
+                    "uniqueID": "092c30f3-649f-4bcb-ac97-8be446de94ab",
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 16,
+                            "currentEquation": "16"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.30025445292620867,
+                    "y": 0.8209459459459459,
+                    "uniqueID": "69ab386b-a09e-41fc-868e-ca66090e7192",
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 2,
+                            "currentEquation": "2"
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 2,
+                            "currentEquation": "02"
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 2,
+                            "currentEquation": "02"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Fusion",
+                    "name": "Fusion",
+                    "x": 0.4631043256997456,
+                    "y": 0.6587837837837838,
+                    "uniqueID": "d4564fd0-2a81-4fca-96b0-d47959cf56cc",
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": {
+                                "geometry": "move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-8-8-0",
+                                "dimension": "3D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                            }
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": {
+                                "geometry": "move-extrude-rectangle-34-34-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-2-2-2",
+                                "dimension": "3D",
+                                "plane": {
+                                    "origin": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "xDir": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "normal": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "color": "#aad7f2",
+                                "tags": [],
+                                "bom": []
+                            }
+                        }
+                    ],
+                    "unionType": "Fusion"
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.6946564885496184,
+                    "y": 0.8513513513513513,
+                    "uniqueID": "e5e8a377-d5de-4b13-88ed-edf4e22cdf2f",
+                    "ioValues": [],
+                    "selectedColorIndex": 20
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "be14c50e-1530-491e-bc1a-e7b1f17d1f00",
+                    "ap2ID": "8297ba2a-60cf-49bb-92ad-604a96812f44"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "be14c50e-1530-491e-bc1a-e7b1f17d1f00",
+                    "ap2ID": "092c30f3-649f-4bcb-ac97-8be446de94ab"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "8297ba2a-60cf-49bb-92ad-604a96812f44",
+                    "ap2ID": "56928793-af5d-4298-8680-d9ba5313576d"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": "8297ba2a-60cf-49bb-92ad-604a96812f44",
+                    "ap2ID": "6265351a-f252-451e-97f2-4fd30567f48a"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap1ID": "56928793-af5d-4298-8680-d9ba5313576d",
+                    "ap2ID": "d4564fd0-2a81-4fca-96b0-d47959cf56cc"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "6265351a-f252-451e-97f2-4fd30567f48a",
+                    "ap2ID": "e5e8a377-d5de-4b13-88ed-edf4e22cdf2f"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": "092c30f3-649f-4bcb-ac97-8be446de94ab",
+                    "ap2ID": "69ab386b-a09e-41fc-868e-ca66090e7192"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap1ID": "69ab386b-a09e-41fc-868e-ca66090e7192",
+                    "ap2ID": "d4564fd0-2a81-4fca-96b0-d47959cf56cc"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": "d4564fd0-2a81-4fca-96b0-d47959cf56cc",
+                    "ap2ID": "6265351a-f252-451e-97f2-4fd30567f48a"
+                },
+                {
+                    "ap1Name": "color",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": "e5e8a377-d5de-4b13-88ed-edf4e22cdf2f",
+                    "ap2ID": "92e5f002-2c05-4e58-97f4-19932e55020a"
+                }
+            ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         }
     ],
     "allConnectors": [
