@@ -18,11 +18,11 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.3638676844783715,
-            "y": 0.6722972972972973,
+            "x": 0.3231552162849873,
+            "y": 0.36486486486486486,
             "uniqueID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad",
             "ioValues": [],
-            "selectedColorIndex": 20
+            "selectedColorIndex": 8
         },
         {
             "atomType": "Add-BOM-Tag",
@@ -359,8 +359,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6564885496183206,
-            "y": 0.5709459459459459,
+            "x": 0.7837150127226463,
+            "y": 0.4864864864864865,
             "uniqueID": "6ec07398-516e-4b45-ae93-af06f142b64c",
             "ioValues": [
                 {
@@ -390,6 +390,28 @@
                 "costUSD": 56.99,
                 "source": "https://amzn.to/42T8U8C"
             }
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Corner Protectors",
+            "x": 0.12468193384223918,
+            "y": 0.8175675675675677,
+            "uniqueID": "3d2bb88c-f8bc-4eb6-959f-295b8ca25e86",
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "92e5f002-2c05-4e58-97f4-19932e55020a",
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
