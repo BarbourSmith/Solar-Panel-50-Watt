@@ -18,8 +18,8 @@
         {
             "atomType": "Color",
             "name": "Color",
-            "x": 0.3231552162849873,
-            "y": 0.36486486486486486,
+            "x": 0.3638676844783715,
+            "y": 0.29054054054054057,
             "uniqueID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad",
             "ioValues": [],
             "selectedColorIndex": 8
@@ -27,38 +27,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.5725190839694657,
-            "y": 0.27027027027027023,
-            "uniqueID": "ee619800-d6d4-4f16-9e1e-4a5ba5c3d217",
-            "ioValues": [
-                {
-                    "name": "Number Needed",
-                    "ioValue": 1,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Cost (USD)",
-                    "ioValue": 0,
-                    "currentEquation": null
-                },
-                {
-                    "name": "Source Link",
-                    "ioValue": "",
-                    "currentEquation": null
-                }
-            ],
-            "BOMitem": {
-                "BOMitemName": "Solar Panel",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com"
-            }
-        },
-        {
-            "atomType": "Add-BOM-Tag",
-            "name": "Add BOM Tag",
-            "x": 0.7837150127226463,
-            "y": 0.4864864864864865,
+            "x": 0.7480916030534351,
+            "y": 0.3243243243243243,
             "uniqueID": "6ec07398-516e-4b45-ae93-af06f142b64c",
             "ioValues": [
                 {
@@ -83,7 +53,7 @@
                 }
             ],
             "BOMitem": {
-                "BOMitemName": "50 watt Solar Panel",
+                "BOMitemName": "Solar",
                 "numberNeeded": 1,
                 "costUSD": 56.99,
                 "source": "https://amzn.to/42T8U8C"
@@ -92,8 +62,8 @@
         {
             "atomType": "Molecule",
             "name": "Frame",
-            "x": 0.1094147582697201,
-            "y": 0.5472972972972974,
+            "x": 0.08651399491094147,
+            "y": 0.46959459459459457,
             "uniqueID": "a470c955-729b-4dae-a054-81b26608c1e4",
             "ioValues": [],
             "topLevel": false,
@@ -418,12 +388,12 @@
                         {
                             "name": "x length",
                             "ioValue": 34,
-                            "currentEquation": "34"
+                            "currentEquation": null
                         },
                         {
                             "name": "y length",
                             "ioValue": 34,
-                            "currentEquation": "34"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -437,7 +407,7 @@
                         {
                             "name": "height",
                             "ioValue": 20,
-                            "currentEquation": "20"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -451,12 +421,12 @@
                         {
                             "name": "xDist",
                             "ioValue": 8,
-                            "currentEquation": "8"
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
                             "ioValue": 8,
-                            "currentEquation": "8"
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
@@ -483,7 +453,7 @@
                         {
                             "name": "height",
                             "ioValue": 16,
-                            "currentEquation": "16"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -497,17 +467,17 @@
                         {
                             "name": "xDist",
                             "ioValue": 2,
-                            "currentEquation": "2"
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
                             "ioValue": 2,
-                            "currentEquation": "02"
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
                             "ioValue": 2,
-                            "currentEquation": "02"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -654,12 +624,6 @@
     "allConnectors": [
         {
             "ap1Name": "color",
-            "ap2Name": "Item Name",
-            "ap1ID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad",
-            "ap2ID": "ee619800-d6d4-4f16-9e1e-4a5ba5c3d217"
-        },
-        {
-            "ap1Name": "color",
             "ap2Name": "geometry",
             "ap1ID": "e8d0719f-dff7-42b7-9cd1-e9e89cb012ad",
             "ap2ID": "6ec07398-516e-4b45-ae93-af06f142b64c"
@@ -681,7 +645,7 @@
     "fileTypeVersion": 1,
     "compiledBom": [
         {
-            "BOMitemName": "50 watt Solar Panel",
+            "BOMitemName": "Solar",
             "numberNeeded": 1,
             "costUSD": 56.99,
             "source": "https://amzn.to/42T8U8C"
