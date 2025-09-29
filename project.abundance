@@ -27,8 +27,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.8154761904761905,
-            "y": 0.4094707520891365,
+            "x": 0.8035714285714286,
+            "y": 0.3175487465181059,
             "uniqueID": "6ec07398-516e-4b45-ae93-af06f142b64c",
             "ioValues": [
                 {
@@ -298,7 +298,7 @@
                         {
                             "name": "height",
                             "ioValue": 14,
-                            "currentEquation": "14"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -330,7 +330,7 @@
                         {
                             "name": "zDist",
                             "ioValue": 1.5,
-                            "currentEquation": "1.5"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -613,7 +613,7 @@
                         {
                             "name": "height",
                             "ioValue": 14,
-                            "currentEquation": "14"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -627,17 +627,17 @@
                         {
                             "name": "xDist",
                             "ioValue": 3,
-                            "currentEquation": "3"
+                            "currentEquation": null
                         },
                         {
                             "name": "yDist",
                             "ioValue": 3,
-                            "currentEquation": "3"
+                            "currentEquation": null
                         },
                         {
                             "name": "zDist",
                             "ioValue": 3,
-                            "currentEquation": "3"
+                            "currentEquation": null
                         }
                     ]
                 },
@@ -1180,6 +1180,13 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "50 Watt Solar Panel",
+            "numberNeeded": 1,
+            "costUSD": 56.99,
+            "source": "https://amzn.to/42T8U8C"
+        }
+    ],
     "filetypeVersion": 1
 }
