@@ -27,13 +27,13 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.8091603053435115,
-            "y": 0.42905405405405406,
+            "x": 0.8154761904761905,
+            "y": 0.4094707520891365,
             "uniqueID": "6ec07398-516e-4b45-ae93-af06f142b64c",
             "ioValues": [
                 {
                     "name": "Item Name",
-                    "ioValue": "New Item",
+                    "ioValue": "50 Watt Solar Panel",
                     "currentEquation": null
                 },
                 {
@@ -53,7 +53,7 @@
                 }
             ],
             "BOMitem": {
-                "BOMitemName": "Solar",
+                "BOMitemName": "50 Watt Solar Panel",
                 "numberNeeded": 1,
                 "costUSD": 56.99,
                 "source": "https://amzn.to/42T8U8C"
